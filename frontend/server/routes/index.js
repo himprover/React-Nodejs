@@ -2,7 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req,res) {
-    res.send({greeting:'Hello React x Node.js'});
+    console.log("http://localhost:4000/api/");
+    res.send({title: 'hello'});
 });
 
 module.exports = router;
